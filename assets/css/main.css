@@ -1108,7 +1108,7 @@
 				background-image: -webkit-linear-gradient(bottom, rgba(16,16,16,0.75), rgba(16,16,16,0.25) 80%, rgba(16,16,16,0));
 				background-image: -ms-linear-gradient(bottom, rgba(16,16,16,0.75), rgba(16,16,16,0.25) 80%, rgba(16,16,16,0));
 				background-image: linear-gradient(bottom, rgba(16,16,16,0.75), rgba(16,16,16,0.25) 80%, rgba(16,16,16,0));
-				padding: 2em 2em 0.75em 2em ;
+				padding: 2em 3em 0.75em 2em ;
 				position: absolute;
 				bottom: 0;
 				left: 0;
@@ -1151,7 +1151,16 @@
 					opacity: 0.4;
 				}
 
+				#viewer .slide .caption img {
+					transform: scale(0.75) rotate(-90deg);
+					position: absolute;
+					bottom: 0.75em;
+					right: 1em;
+				}
 
+					#viewer .slide .caption:hover img {
+						display: none;
+					}
 
 				#viewer .slide .caption h2, #viewer .slide .caption h3, #viewer .slide .caption h4, #viewer .slide .caption h5, #viewer .slide .caption h6 {
 					color: #fff;
